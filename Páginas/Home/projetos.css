@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Geral */
+
+body{
+    overflow-x: hidden;
+}
+
+.bg{
+    position: fixed;
+    z-index: -100;
+    background-image: url(Contato&Projetos_Assets/migs.jpeg);
+    width: 1600px;
+    height: 700px;
+    margin-top: -221px;
+}
+
+/* Cabeçalho */
+
+header{
+    position: relative;
+    position: fixed;
+    
+    z-index: 100;
+
+    background-color: #ff6600;
+    width: 100%;
+    height: 90px;
+
+    border-bottom-color: #e25a00;
+    border-bottom-style: solid;
+    border-bottom-width: 9px;
+    color: white;
+    margin-top: -200px;
+}
+
+.link1, .link2 {
+    text-decoration: solid;
+    color: white;
+    font-size: 15pt;
+    opacity: 100%;
+    transition: .5s ease-in-out;
+}
+
+.link1area, .link2area {
+    background-color: #ff6600;
+    width: 170px;
+    height: 44px;
+    margin-left: 90.3%;
+    opacity: 100%;
+    transition: .2s ease-in-out;
+}
+
+.link1area:hover, .link2area:hover {
+    background-color: #e25a00;
+    width: 170px;
+    height: 44px;
+    margin-left: 90.3%;
+}
+
+.header-line{
+    color: white;
+    width: 170px;
+    margin-left: 90.25%;
+
+    border-style: solid;
+    opacity: 50%;
+}
+
+.header-links{
+    text-align: center;
+    margin-right: 33px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-title{
+    animation-name: titulosite;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+    margin-left: 10px;
+    width: 700px;
+    height: auto;
+    margin-top: -70px;
+    font-size: 30pt;
+
+    transition: .3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.header-title:hover{
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* Conteúdo */
+
+.faixa_migmations{
+    
+    background-color: black;
+    width: auto;
+    height: 150px;
+    margin-top: 200px;
+}
+
+.faixa_nome{
+    background-color: black;
+    width: auto;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.text{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -110px;
+    text-decoration:dotted;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40pt;
+}
+
+#text{
+    color: black;
+    text-decoration: none;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+
+#text:hover{
+    text-decoration: none;
+    color:#e25a00;
+}
+
+.project1-bg{
+    background-color: rgba(255, 255, 255, 0.693);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: 1300px;
+    height: 500px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#channel-img{
+    border-radius: 50%;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#best-video{
+    position: absolute;
+    opacity: 0;
+    left: 700px;
+    top: 450px;
+
+    animation-name: bestvideo;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-timing-function: none;
+    animation-fill-mode: forwards;
+}
+
+iframe{
+    border-radius: 30px;
+}
+
+.refresh{
+    border-radius: 30px;
+    border-style: none;
+    background-color: #e25a00;
+    width: 560px;
+
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.refresh:hover{
+    border-radius: 30px;
+    border-style: none;
+    background-color: #ff7b22;
+    width: 560px;
+
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#channel-img:hover{
+    border-radius: 5%;
+}
+
+#channel-img-area{
+    width: 600px;
+    height: auto;
+
+    margin-left: 150px;
+}
+
+#title{
+    font-size: 35pt;
+    margin-left: 50px;
+}
+
+#blue{
+    color: rgb(109, 155, 255);
+}
+
+#content{
+    font-size: 15pt;
+    margin-left: 75px;
+    width: 600px;
+}
+
+.project2-bg{
+    background-color: rgba(255, 255, 255, 0.693);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: 1300px;
+    height: 500px;
+
+    margin-top: 57px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mig_despedida{
+    position: absolute;
+    left: 800px;
+    top: 1050px;
+    opacity: 0;
+    rotate: 0deg;
+
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    animation-name: migtchau;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* Animações */
+
+@keyframes titulosite{
+    0%{
+        margin-top: 800px;
+        opacity: 0;
+        color: white;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        margin-top: -75px;
+        opacity: 1;
+        color: white;
+        font-size: 35pt;
+    }
+
+}
+    
+@keyframes bestvideo{
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes migtchau{
+    to{
+        opacity: 1;
+        rotate: 365deg;
+    }
+}
