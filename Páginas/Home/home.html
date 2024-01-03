@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mig Portfolio | Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <div class="header-links">
+            <div class="link1area">
+                <a class="link1" href="Contato/contato.html">
+                    Contato
+            </a>
+            </div>
+                <hr class="header-line">
+            <div class="link2area">
+                <a class="link2" href="Projetos/projetos.html">
+                    Projetos
+                </a>
+            </div>
+        
+        </div>
+        <div class="header-title">
+            <b class="header-title-properties">Miguel Thomas: Portfólio</b>
+        </div>
+    </header>
+    
+    <!-- Conteúdo -->
+        <!-- Apresentação -->
+        <section class="apresentacao-bg">
+            
+        </section>
+        <br><br>
+        <article class="apresentacao">
+            <br><br><br><br>
+            <div class="apresentacao-title">
+                Olá! Eu sou <i id="eu" onmouseenter="mostrar()" onmouseleave="esconder()">Miguel Thomas.</i>
+            </div>
+            <div class="apresentacao-stitle">
+                Jovem aprendiz de programação <br>
+            </div>
+
+            <img id="a-img" src="Home_Assets/mig_waving.gif" alt="Gif em loop que será trocado depois.">
+        </article>
+
+        <hr id="separador">
+
+        <!-- Um pouco sobre mim -->
+        <section class="aboutme-bg">
+            
+        </section>
+        
+        <article class="aboutme">
+            <div>
+                <div class="textshower-title">
+                  <b>Sobre mim!</b>  
+                </div>
+                <div class="text-shower">
+                    <div class="content">
+                        Clique nos botões para mostrar os textos!
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </article>
+
+        <div class="pageselector">
+            <div class="ts-image">
+                <img src="Home_Assets/seta.png" alt="" class="ts-img">
+            </div>
+            
+            </button>
+                <p><b class="pgc">[0 | 5]</b></p>
+            <button class="next pagebutton" onclick="nextpage()">
+                <b>>></b>
+            </button>
+            <p id="hint">Dica: você pode apertar no botão o quanto quiser!</p>
+        </div>
+
+        <section class="otheroptions-bg">
+            <hr id="separador">
+        </section>
+
+        <article class="otheroptions">
+            <div>
+                
+                <div class="otheroptions_title">
+                    <br>
+                    <b>Procurando algo mais? Aqui vão algumas opções:</b>
+                </div>
+                <a href="Contato/contato.css">
+                    <input type="button" value="Entre em contato." class="o_optionsbtn" onmouseenter="mig_left()" onmouseleave="mig_idle()">
+                </a>
+                <a href="Projetos/projetos.html">
+                    <input type="button" value="Outros Projetos." class="o_optionsbtn" onmouseenter="mig_right()" onmouseleave="mig_idle()">
+                </a>
+
+                
+            </div>
+            <img src="Home_Assets/mig_idle.png" alt="Mig :P" class="pointer_mig">
+        </article>
+
+    <script src="home.js"></script>
+</body>
+</html>
