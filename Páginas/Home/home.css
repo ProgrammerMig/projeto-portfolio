@@ -199,6 +199,7 @@ header{
 }
 
 #separador{
+    width: 100000%;
     height: 5px;
     border-style: none;
     background-color: #ffffff;
@@ -272,6 +273,7 @@ header{
 .pageselector{
     margin-top: -525px;
     margin-left: auto;
+    margin-right: auto;
     text-align:center;
 
 }
