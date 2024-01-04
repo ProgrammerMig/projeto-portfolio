@@ -15,9 +15,9 @@ body{
     position: fixed;
     z-index: -100;
     background-image: url(Contato&Projetos_Assets/migs.jpeg);
-    width: 1600px;
-    height: 700px;
-    margin-top: -221px;
+    width: 100%;
+    height: 100%;
+    margin-top: -200px;
 }
 
 /* Cabeçalho */
@@ -51,7 +51,7 @@ header{
     background-color: #ff6600;
     width: 170px;
     height: 44px;
-    margin-left: 90.3%;
+    margin-left: auto;
     opacity: 100%;
     transition: .2s ease-in-out;
 }
@@ -60,13 +60,13 @@ header{
     background-color: #e25a00;
     width: 170px;
     height: 44px;
-    margin-left: 90.3%;
+    margin-left: auto;
 }
 
 .header-line{
     color: white;
     width: 170px;
-    margin-left: 90.25%;
+    margin-left: auto;
 
     border-style: solid;
     opacity: 50%;
@@ -74,7 +74,7 @@ header{
 
 .header-links{
     text-align: center;
-    margin-right: 33px;
+    
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -106,14 +106,14 @@ header{
 .faixa_migmations{
     
     background-color: black;
-    width: auto;
+    width: 100%;
     height: 150px;
     margin-top: 200px;
 }
 
 .faixa_nome{
     background-color: black;
-    width: auto;
+    width: 100%;
     height: 150px;
     margin-top: 10px;
 }
@@ -156,15 +156,25 @@ header{
     transition-timing-function: ease-in-out;
 }
 
-#best-video{
+#bv-title{
     position: absolute;
+    font-size: 20pt;
+    width: 800px;
+    height: 5px;
+    margin-top: -60px;
+    margin-left: 700px;
+    
+}
+
+#best-video{
     opacity: 0;
-    left: 700px;
-    top: 450px;
+
+    margin-left: 625px;
+    margin-top: -400px;
 
     animation-name: bestvideo;
     animation-duration: 1s;
-    animation-delay: 5s;
+    animation-delay: 0s;
     animation-timing-function: none;
     animation-fill-mode: forwards;
 }
@@ -236,7 +246,7 @@ iframe{
 
 #mig_despedida{
     position: absolute;
-    left: 800px;
+    margin-left: 700px;
     top: 1050px;
     opacity: 0;
     rotate: 0deg;
