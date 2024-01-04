@@ -106,14 +106,14 @@ header{
 .faixa_migmations{
     
     background-color: black;
-    width: 100%;
+    width: 100000%;
     height: 150px;
     margin-top: 200px;
 }
 
 .faixa_nome{
     background-color: black;
-    width: 100%;
+    width: 100000%;
     height: 150px;
     margin-top: 10px;
 }
@@ -157,6 +157,7 @@ header{
 }
 
 #bv-title{
+    opacity: 0;
     position: absolute;
     font-size: 20pt;
     width: 800px;
@@ -164,6 +165,11 @@ header{
     margin-top: -60px;
     margin-left: 700px;
     
+    animation-name: bestvideo;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-timing-function: none;
+    animation-fill-mode: forwards;
 }
 
 #best-video{
@@ -247,7 +253,7 @@ iframe{
 #mig_despedida{
     position: absolute;
     margin-left: 700px;
-    top: 1050px;
+    margin-top: -330px;
     opacity: 0;
     rotate: 0deg;
 

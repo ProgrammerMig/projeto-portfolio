@@ -120,7 +120,7 @@ header{
     animation-duration:1s;
     animation-iteration-count: infinite;
 
-    width: 100%;
+    width: 100000%;
     height: 605px;
     
     margin-top: 99px;
@@ -212,7 +212,7 @@ header{
     animation-duration:1s;
     animation-iteration-count: infinite;
 
-    width: 100%;
+    width: 100000%;
     height: 800px;
     margin-top: 0px;
 }
@@ -278,7 +278,7 @@ header{
 
 .otheroptions-bg{
     background-image: linear-gradient(#000000,#0e0e0e );
-    width: 100%;
+    width: 100000%;
     height: 500px;
     margin-top: 87px;
 }
