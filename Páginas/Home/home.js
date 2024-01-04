@@ -13,6 +13,10 @@ text = document.querySelector('div.content')
 
 texts = [`Tenho atualmente ${anoatual - 2010} anos! 👦`, `Curto temas como: espaço🌌, gaming🎮, animação✍, entre outras coisas...`, `Sei as linguagens: Python🐍, Javascript e um pouco de PHP🐘`, `Gosto de muitos animais, mas de todos eles a Raposa é uma de minhas preferidas! 🦊`, `Tenho como cor favorita, Tons azulados 🔵 e roxos. 🟣`]
 
+if(navigator.platform != Win32 || navigator.platform != Win64){
+    alert('ATENÇÃO! Parece que você não está em um Windows, o site provavelmente vai estar com alguns bugs para você, O Site ainda é acessível da sua plataforma, porém, com alguns erros. Já estou cuidando dessa situação, obrigado pela compreensão :)')
+}
+
 function nextpage(){ 
     pg++
 
