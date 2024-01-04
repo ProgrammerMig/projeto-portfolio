@@ -174,7 +174,7 @@ header{
 
     animation-name: bestvideo;
     animation-duration: 1s;
-    animation-delay: 0s;
+    animation-delay: 5s;
     animation-timing-function: none;
     animation-fill-mode: forwards;
 }
